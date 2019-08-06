@@ -3,6 +3,22 @@
 
 Code for data processing and analysis of agricultural residues as an alternate food source in catastrophic scenarios
 
+## Setup
+
+You will first need to obtain `libspatialindex`, which can be installed on MacOS as follows:
+
+```brew install spatialindex```
+
+Installation for Windows and *nix systems can be found here:
+http://toblerity.org/rtree/install.html
+
+Python dependencies can then be installed into a fresh virtual environment with:
+
+```pip install -r requirements.txt```
+
+For Python version to use, see `.python-version`
+
+
 Project Organization
 ------------
 
