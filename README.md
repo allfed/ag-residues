@@ -12,11 +12,26 @@ You will first need to obtain `libspatialindex`, which can be installed on MacOS
 Installation for Windows and *nix systems can be found here:
 http://toblerity.org/rtree/install.html
 
-Python dependencies can then be installed into a fresh virtual environment with:
+For Python environment, and dependency management, it's recommended to use `conda`.
+Download Miniconda from here: https://docs.conda.io/en/latest/miniconda.html and follow
+the setup instructions for your platform.
 
-```pip install -r requirements.txt```
+Once installed, run the following to create a new environment and work in it (requires
+a bash-like terminal)
+```bash
+conda create -n ag-residues python=3.7
+conda activate ag-residues
+```
 
-For Python version to use, see `.python-version`
+Then, install requirements into your environment:
+```bash
+conda run pip install -r requirements.txt
+```
+
+You can then spawn a Jupyter Lab instance and access the notebooks in this repo:
+```bash
+jupyter lab
+```
 
 
 Project Organization
