@@ -3,6 +3,6 @@
 
 # external requirements
 git+https://github.com/allfed/allfed-spatial.git#egg=allfed-spatial
-pandas==0.25.0
-jupyterlab==1.0.4
-rasterstats=0.13.1
+pandas
+jupyterlab
+rasterstats
